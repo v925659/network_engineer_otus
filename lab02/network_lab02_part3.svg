@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Создано Microsoft Visio, экспорт SVG network_lab02_part3.svg part 3 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="11.6929in" height="8.26772in"
+		viewBox="0 0 841.89 595.276" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="1049" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:prompt="" v:val="VT0(0):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st2 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.25}
+		.st3 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st4 {fill:#ffffff;font-family:Segoe UI;font-size:0.974343em;font-weight:bold}
+		.st5 {baseline-shift:-33.35%;font-size:0.667em}
+		.st6 {fill:#113c52;font-family:Segoe UI;font-size:0.649551em}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="6" v:index="4" v:groupContext="foregroundPage">
+		<v:userDefs>
+			<v:ud v:nameU="msvThemeOrder" v:val="VT0(0):26"/>
+			<v:ud v:nameU="visNavType" v:val="VT0(1):26"/>
+		</v:userDefs>
+		<title>part 3</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="9"
+				v:shadowOffsetY="-9"/>
+		<v:layer v:name="Соединительная линия" v:index="0"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" v:layerMember="0" transform="translate(119.906,-517.323)">
+			<title>Динамическая соединительная линия</title>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(4000):26"/>
+			</v:userDefs>
+			<path d="M0 588.19 L201.57 588.19" class="st1"/>
+		</g>
+		<g id="shape2-4" v:mID="2" v:groupContext="shape" v:layerMember="0" transform="translate(119.906,-509.953)">
+			<title>Динамическая соединительная линия.626</title>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(5000):26"/>
+			</v:userDefs>
+			<path d="M0 588.19 L201.26 588.19" class="st1"/>
+		</g>
+		<g id="shape3-7" v:mID="3" v:groupContext="shape" v:layerMember="0" transform="translate(221.596,-458.959)">
+			<title>Динамическая соединительная линия.629</title>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(6000):26"/>
+			</v:userDefs>
+			<path d="M0 595.28 L100.12 537.47" class="st1"/>
+		</g>
+		<g id="shape4-10" v:mID="4" v:groupContext="shape" v:layerMember="0" transform="translate(225.281,-452.577)">
+			<title>Динамическая соединительная линия.630</title>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(7000):26"/>
+			</v:userDefs>
+			<path d="M0 595.28 L99.97 537.56" class="st1"/>
+		</g>
+		<g id="shape5-13" v:mID="5" v:groupContext="shape" v:layerMember="0" transform="translate(120.722,-517.137)">
+			<title>Динамическая соединительная линия.631</title>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(8000):26"/>
+			</v:userDefs>
+			<path d="M0 595.28 L100.42 652.56" class="st1"/>
+		</g>
+		<g id="shape6-16" v:mID="6" v:groupContext="shape" v:layerMember="0" transform="translate(117.071,-510.736)">
+			<title>Динамическая соединительная линия.632</title>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(9000):26"/>
+			</v:userDefs>
+			<path d="M0 595.28 L100.27 652.47" class="st1"/>
+		</g>
+		<g id="shape7-19" v:mID="7" v:groupContext="shape" transform="translate(188.915,-446.457)">
+			<title>Workgroup switch.4</title>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(3000):26"/>
+			</v:userDefs>
+			<rect v:rectContext="foreign" x="0" y="566.929" width="57.5717" height="28.3465" class="st2"/>
+			<switch>
+				<foreignObject x="0" y="566.929" width="57.5717" height="28.3465"
+						requiredExtensions="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+					<v:foreignData v:orgSize="1032" v:data="data:metafile;base64,eNqFkU9IVFEUxr+X98LojGIzLVq4kGByFuEqJFwVlNCiVZv
+								ARSCJm4bU/mBaLkREokW5CMJWkguJnNXgosUQTbVoKiJFxWgtRNEqOGDcvjMc6/F64IWP79xz7v3d886LANygpiPg/e8QavT
+								v9KVeYOBFCA/7gN5aCN3nLgwAETIOKPI8De3UJdjSRAtwmvd/MjyDK7iGIQyjGxdxG9f5yjDKdOAwlaMyVN5iXkMb1Yl/K5f
+								Yt9r+/CHgOC9kbf+KGqIKdodl9FBHjasrX37c9GLsvcvUSTt/ws7tO45FzbyuEMLfHoqxN/ot1k8fpE7ZHL9wfhWbo77jTVl
+								fl6x/JHecSuO6FA7g3SWgYf/la4I3RU7VjUi/H5E2cnV/EO95jPfjv/7ekLXQ5Gmfuk+baUtiLvsz0XwpZb5Rynw90lf8/5R
+								ib2v/Z6l5FjbZ9yJ9x/rPmD66e9Jw92WFWnYPZJFecXPyjHmtFVJ4CwR8IucpfSPB++YmZNdNyWvqpZuWNTcp79xNecu81tJ
+								4TwhYJ2eVvp3gbbhZ2XIzskcF8lr9jPxy8yLMay2Nt0TAB3Kq9M8J3q4bZx+j0uFHJe+vSpcfk4y/JTk/LlorpcxS/1EHdcT
+								m3WnxH831y/I="/>
+				</foreignObject>
+				<svg viewBox="382.02 -563.01 64.992 32" enable-background="new" color-interpolation-filters="sRGB" height="28.3465"
+						preserveAspectRatio="none" width="57.5717" x="0" y="566.929">
+					<defs>
+						<clipPath id="mfid19">
+							<rect id="mfid20" x="382.02" y="-563.01" width="64.992" height="32"/>
+						</clipPath>
+					</defs>
+					<g clip-path="url(#mfid19)">
+						<g transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)">
+							<g stroke-width="2" stroke="#ffffff" fill="#126d99">
+								<path d="M1291,-1596 L1291,-1642 L1148,-1642 L1148,-1596 L1291,-1596 Z"/>
+								<path d="M1147,-1642 L1205,-1689 L1338,-1689 L1290,-1642 L1147,-1642 Z"/>
+								<path d="M1291,-1594 L1338,-1646 L1338,-1689 L1291,-1642 L1291,-1594 Z"/>
+							</g>
+							<g stroke-width="2.54" stroke="none" fill="#ffffff">
+								<path
+										d="M1231,-1654 L1228,-1652 L1193,-1652 L1189,-1648 L1179,-1652 L1199,-1658 L1195,-1654 L1231,-1654 Z"/>
+								<path
+										d="M1259,-1672 L1256,-1669 L1221,-1669 L1217,-1666 L1207,-1670 L1227,-1675 L1223,-1672 L1259,-1672 Z"/>
+								<path
+										d="M1237,-1660 L1240,-1662 L1276,-1662 L1279,-1666 L1289,-1662 L1270,-1656 L1273,-1660 L1237,-1660 Z"/>
+								<path
+										d="M1256,-1678 L1259,-1680 L1294,-1680 L1298,-1684 L1308,-1679 L1288,-1674 L1292,-1678 L1256,-1678 Z"/>
+							</g>
+						</g>
+					</g>
+				</svg>
+			</switch>
+			<rect v:rectContext="foreign" x="0" y="566.929" width="57.5717" height="28.3465" class="st2"/>
+		</g>
+		<g id="shape8-22" v:mID="8" v:groupContext="shape" transform="translate(309.827,-498.898)">
+			<title>Workgroup switch.2</title>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(2000):26"/>
+			</v:userDefs>
+			<rect v:rectContext="foreign" x="0" y="566.929" width="57.5717" height="28.3465" class="st2"/>
+			<switch>
+				<foreignObject x="0" y="566.929" width="57.5717" height="28.3465"
+						requiredExtensions="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+					<v:foreignData v:orgSize="1032" v:data="data:metafile;base64,eNqFkU9IVFEUxr+X98LojGIzLVq4kGByFuEqJFwVlNCiVZv
+								ARSCJm4bU/mBaLkREokW5CMJWkguJnNXgosUQTbVoKiJFxWgtRNEqOGDcvjMc6/F64IWP79xz7v3d886LANygpiPg/e8QavT
+								v9KVeYOBFCA/7gN5aCN3nLgwAETIOKPI8De3UJdjSRAtwmvd/MjyDK7iGIQyjGxdxG9f5yjDKdOAwlaMyVN5iXkMb1Yl/K5f
+								Yt9r+/CHgOC9kbf+KGqIKdodl9FBHjasrX37c9GLsvcvUSTt/ws7tO45FzbyuEMLfHoqxN/ot1k8fpE7ZHL9wfhWbo77jTVl
+								fl6x/JHecSuO6FA7g3SWgYf/la4I3RU7VjUi/H5E2cnV/EO95jPfjv/7ekLXQ5Gmfuk+baUtiLvsz0XwpZb5Rynw90lf8/5R
+								ib2v/Z6l5FjbZ9yJ9x/rPmD66e9Jw92WFWnYPZJFecXPyjHmtFVJ4CwR8IucpfSPB++YmZNdNyWvqpZuWNTcp79xNecu81tJ
+								4TwhYJ2eVvp3gbbhZ2XIzskcF8lr9jPxy8yLMay2Nt0TAB3Kq9M8J3q4bZx+j0uFHJe+vSpcfk4y/JTk/LlorpcxS/1EHdcT
+								m3WnxH831y/I="/>
+				</foreignObject>
+				<svg viewBox="382.02 -563.01 64.992 32" enable-background="new" color-interpolation-filters="sRGB" height="28.3465"
+						preserveAspectRatio="none" width="57.5717" x="0" y="566.929">
+					<defs>
+						<clipPath id="mfid21">
+							<rect id="mfid22" x="382.02" y="-563.01" width="64.992" height="32"/>
+						</clipPath>
+					</defs>
+					<g clip-path="url(#mfid21)">
+						<g transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)">
+							<g stroke-width="2" stroke="#ffffff" fill="#126d99">
+								<path d="M1291,-1596 L1291,-1642 L1148,-1642 L1148,-1596 L1291,-1596 Z"/>
+								<path d="M1147,-1642 L1205,-1689 L1338,-1689 L1290,-1642 L1147,-1642 Z"/>
+								<path d="M1291,-1594 L1338,-1646 L1338,-1689 L1291,-1642 L1291,-1594 Z"/>
+							</g>
+							<g stroke-width="2.54" stroke="none" fill="#ffffff">
+								<path
+										d="M1231,-1654 L1228,-1652 L1193,-1652 L1189,-1648 L1179,-1652 L1199,-1658 L1195,-1654 L1231,-1654 Z"/>
+								<path
+										d="M1259,-1672 L1256,-1669 L1221,-1669 L1217,-1666 L1207,-1670 L1227,-1675 L1223,-1672 L1259,-1672 Z"/>
+								<path
+										d="M1237,-1660 L1240,-1662 L1276,-1662 L1279,-1666 L1289,-1662 L1270,-1656 L1273,-1660 L1237,-1660 Z"/>
+								<path
+										d="M1256,-1678 L1259,-1680 L1294,-1680 L1298,-1684 L1308,-1679 L1288,-1674 L1292,-1678 L1256,-1678 Z"/>
+							</g>
+						</g>
+					</g>
+				</svg>
+			</switch>
+			<rect v:rectContext="foreign" x="0" y="566.929" width="57.5717" height="28.3465" class="st2"/>
+		</g>
+		<g id="shape9-25" v:mID="9" v:groupContext="shape" transform="translate(77.3858,-498.898)">
+			<title>Workgroup switch</title>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(1000):26"/>
+			</v:userDefs>
+			<rect v:rectContext="foreign" x="0" y="566.929" width="57.5717" height="28.3465" class="st2"/>
+			<switch>
+				<foreignObject x="0" y="566.929" width="57.5717" height="28.3465"
+						requiredExtensions="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+					<v:foreignData v:orgSize="1032" v:data="data:metafile;base64,eNqFkU9IVFEUxr+X98LojGIzLVq4kGByFuEqJFwVlNCiVZv
+								ARSCJm4bU/mBaLkREokW5CMJWkguJnNXgosUQTbVoKiJFxWgtRNEqOGDcvjMc6/F64IWP79xz7v3d886LANygpiPg/e8QavT
+								v9KVeYOBFCA/7gN5aCN3nLgwAETIOKPI8De3UJdjSRAtwmvd/MjyDK7iGIQyjGxdxG9f5yjDKdOAwlaMyVN5iXkMb1Yl/K5f
+								Yt9r+/CHgOC9kbf+KGqIKdodl9FBHjasrX37c9GLsvcvUSTt/ws7tO45FzbyuEMLfHoqxN/ot1k8fpE7ZHL9wfhWbo77jTVl
+								fl6x/JHecSuO6FA7g3SWgYf/la4I3RU7VjUi/H5E2cnV/EO95jPfjv/7ekLXQ5Gmfuk+baUtiLvsz0XwpZb5Rynw90lf8/5R
+								ib2v/Z6l5FjbZ9yJ9x/rPmD66e9Jw92WFWnYPZJFecXPyjHmtFVJ4CwR8IucpfSPB++YmZNdNyWvqpZuWNTcp79xNecu81tJ
+								4TwhYJ2eVvp3gbbhZ2XIzskcF8lr9jPxy8yLMay2Nt0TAB3Kq9M8J3q4bZx+j0uFHJe+vSpcfk4y/JTk/LlorpcxS/1EHdcT
+								m3WnxH831y/I="/>
+				</foreignObject>
+				<svg viewBox="382.02 -563.01 64.992 32" enable-background="new" color-interpolation-filters="sRGB" height="28.3465"
+						preserveAspectRatio="none" width="57.5717" x="0" y="566.929">
+					<defs>
+						<clipPath id="mfid23">
+							<rect id="mfid24" x="382.02" y="-563.01" width="64.992" height="32"/>
+						</clipPath>
+					</defs>
+					<g clip-path="url(#mfid23)">
+						<g transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)">
+							<g stroke-width="2" stroke="#ffffff" fill="#126d99">
+								<path d="M1291,-1596 L1291,-1642 L1148,-1642 L1148,-1596 L1291,-1596 Z"/>
+								<path d="M1147,-1642 L1205,-1689 L1338,-1689 L1290,-1642 L1147,-1642 Z"/>
+								<path d="M1291,-1594 L1338,-1646 L1338,-1689 L1291,-1642 L1291,-1594 Z"/>
+							</g>
+							<g stroke-width="2.54" stroke="none" fill="#ffffff">
+								<path
+										d="M1231,-1654 L1228,-1652 L1193,-1652 L1189,-1648 L1179,-1652 L1199,-1658 L1195,-1654 L1231,-1654 Z"/>
+								<path
+										d="M1259,-1672 L1256,-1669 L1221,-1669 L1217,-1666 L1207,-1670 L1227,-1675 L1223,-1672 L1259,-1672 Z"/>
+								<path
+										d="M1237,-1660 L1240,-1662 L1276,-1662 L1279,-1666 L1289,-1662 L1270,-1656 L1273,-1660 L1237,-1660 Z"/>
+								<path
+										d="M1256,-1678 L1259,-1680 L1294,-1680 L1298,-1684 L1308,-1679 L1288,-1674 L1292,-1678 L1256,-1678 Z"/>
+							</g>
+						</g>
+					</g>
+				</svg>
+			</switch>
+			<rect v:rectContext="foreign" x="0" y="566.929" width="57.5717" height="28.3465" class="st2"/>
+		</g>
+		<g id="shape10-28" v:mID="10" v:groupContext="shape" transform="translate(77.3858,-503.15)">
+			<title>Лист.10</title>
+			<desc>S1</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(10000):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.2598" cy="589.606" width="42.52" height="11.3386"/>
+			<rect x="0" y="583.937" width="42.5197" height="11.3386" class="st3"/>
+			<text x="16.83" y="590.97" class="st4" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/><tspan class="st5">S1</tspan></text>		</g>
+		<g id="shape11-32" v:mID="11" v:groupContext="shape" transform="translate(188.915,-450.709)">
+			<title>Лист.11</title>
+			<desc>S2</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(11000):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.2598" cy="589.606" width="42.52" height="11.3386"/>
+			<rect x="0" y="583.937" width="42.5197" height="11.3386" class="st3"/>
+			<text x="16.83" y="590.97" class="st4" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/><tspan class="st5">S2</tspan></text>		</g>
+		<g id="shape12-36" v:mID="12" v:groupContext="shape" transform="translate(309.827,-503.15)">
+			<title>Лист.12</title>
+			<desc>S3</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(12000):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="21.2598" cy="589.606" width="42.52" height="11.3386"/>
+			<rect x="0" y="583.937" width="42.5197" height="11.3386" class="st3"/>
+			<text x="16.83" y="590.97" class="st4" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/><tspan class="st5">S3</tspan></text>		</g>
+		<g id="shape13-40" v:mID="13" v:groupContext="shape" transform="translate(74.5512,-532.913)">
+			<title>Лист.13</title>
+			<desc>S1 MAC: 00E0.A3A7.6C5B</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(13000):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="34.0157" cy="591.024" width="68.04" height="8.50394"/>
+			<rect x="0" y="586.772" width="68.0315" height="8.50394" class="st3"/>
+			<text x="4.92" y="591.93" class="st6" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/><tspan class="st5">S1 MAC: 00E0.A3A7.6C5B</tspan></text>		</g>
+		<g id="shape14-44" v:mID="14" v:groupContext="shape" transform="translate(188.915,-479.055)">
+			<title>Лист.14</title>
+			<desc>S2 MAC: 0001.C950.9198</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(14000):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="34.0157" cy="591.024" width="68.04" height="8.50394"/>
+			<rect x="0" y="586.772" width="68.0315" height="8.50394" class="st3"/>
+			<text x="5.47" y="591.93" class="st6" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/><tspan class="st5">S2 MAC: 0001.C950.9198</tspan></text>		</g>
+		<g id="shape15-48" v:mID="15" v:groupContext="shape" transform="translate(309.827,-531.496)">
+			<title>Лист.15</title>
+			<desc>S3 MAC: 0002.176D.E3D0</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(15000):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="34.0157" cy="591.024" width="68.04" height="8.50394"/>
+			<rect x="0" y="586.772" width="68.0315" height="8.50394" class="st3"/>
+			<text x="4.93" y="591.93" class="st6" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/><tspan class="st5">S3 MAC: 0002.176D.E3D0</tspan></text>		</g>
+		<g id="shape16-52" v:mID="16" v:groupContext="shape" transform="translate(77.3858,-490.394)">
+			<title>Лист.16</title>
+			<desc>S1 F0/1: root (FWD) S1 F0/2: altn (BLK)</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(16000):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.7858" cy="591.024" width="57.58" height="8.50394"/>
+			<rect x="0" y="586.772" width="57.5717" height="8.50394" class="st3"/>
+			<text x="4" y="587.93" class="st6" v:langID="1033"><v:paragraph v:spLine="-0.8"/><v:tabList/><tspan class="st5">S1 F0/1: root (FWD) </tspan><v:newlineChar/><tspan
+						x="4" dy="1.231em" class="st5" v:baseFontSize="8">S1 F0/2: altn (BLK)</tspan></text>		</g>
+		<g id="shape17-57" v:mID="17" v:groupContext="shape" transform="translate(139.748,-528.661)">
+			<title>Лист.17</title>
+			<desc>S1 F0/3: altn (BLK) S1 F0/4: altn (BLK)</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(17000):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.7858" cy="591.024" width="57.58" height="8.50394"/>
+			<rect x="0" y="586.772" width="57.5717" height="8.50394" class="st3"/>
+			<text x="4" y="587.93" class="st6" v:langID="1033"><v:paragraph v:spLine="-0.8"/><v:tabList/><tspan class="st5">S1 F0/3: altn (BLK)</tspan><v:newlineChar/><tspan
+						x="4" dy="1.231em" class="st5" v:baseFontSize="8">S1 F0/4: altn (BLK)</tspan></text>		</g>
+		<g id="shape18-62" v:mID="18" v:groupContext="shape" transform="translate(130.365,-457.795)">
+			<title>Лист.18</title>
+			<desc>S2 F0/1: desg (FWD) S2 F0/2: desg (FWD)</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(18000):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.7858" cy="591.024" width="57.58" height="8.50394"/>
+			<rect x="0" y="586.772" width="57.5717" height="8.50394" class="st3"/>
+			<text x="7.21" y="587.93" class="st6" v:langID="1033"><v:paragraph v:spLine="-0.8" v:horizAlign="2"/><v:tabList/><tspan
+						class="st5">S2 F0/1: desg (FWD)</tspan><v:newlineChar/><tspan x="7.21" dy="1.231em" class="st5"
+						v:baseFontSize="8">S2 F0/2: desg (FWD)</tspan></text>		</g>
+		<g id="shape19-67" v:mID="19" v:groupContext="shape" transform="translate(247.465,-457.795)">
+			<title>Лист.19</title>
+			<desc>S2 F0/3: desg (FWD) S2 F0/4: desg (FWD)</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(19000):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.7858" cy="591.024" width="57.58" height="8.50394"/>
+			<rect x="0" y="586.772" width="57.5717" height="8.50394" class="st3"/>
+			<text x="4" y="587.93" class="st6" v:langID="1033"><v:paragraph v:spLine="-0.8"/><v:tabList/><tspan class="st5">S2 F0/3: desg (FWD)</tspan><v:newlineChar/><tspan
+						x="4" dy="1.231em" class="st5" v:baseFontSize="8">S2 F0/4: desg (FWD)</tspan></text>		</g>
+		<g id="shape20-72" v:mID="20" v:groupContext="shape" transform="translate(256.946,-528.661)">
+			<title>Лист.20</title>
+			<desc>S3 F0/3: desg (FWD) S3 F0/4: desg (FWD)</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(20000):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.7858" cy="591.024" width="57.58" height="8.50394"/>
+			<rect x="0" y="586.772" width="57.5717" height="8.50394" class="st3"/>
+			<text x="7.21" y="587.93" class="st6" v:langID="1033"><v:paragraph v:spLine="-0.8" v:horizAlign="2"/><v:tabList/><tspan
+						class="st5">S3 F0/3: desg (FWD) </tspan><v:newlineChar/><tspan x="7.21" dy="1.231em" class="st5"
+						v:baseFontSize="8">S3 F0/4: desg (FWD)</tspan></text>		</g>
+		<g id="shape21-77" v:mID="21" v:groupContext="shape" transform="translate(302.74,-488.976)">
+			<title>Лист.21</title>
+			<desc>S3 F0/1: root (FWD) S3 F0/2: altn (BLK)</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visNavOrder" v:val="VT0(21000):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="28.7858" cy="591.024" width="57.58" height="8.50394"/>
+			<rect x="0" y="586.772" width="57.5717" height="8.50394" class="st3"/>
+			<text x="4" y="587.93" class="st6" v:langID="1033"><v:paragraph v:spLine="-0.8"/><v:tabList/><tspan class="st5">S3 F0/1: root (FWD)</tspan><v:newlineChar/><tspan
+						x="4" dy="1.231em" class="st5" v:baseFontSize="8">S3 F0/2: altn (BLK)</tspan></text>		</g>
+	</g>
+</svg>
