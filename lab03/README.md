@@ -2,7 +2,7 @@
 
 ### Задание
 1. [Настроить DHCPv4-серверов](README.md#настройка-dhcpv4-сервера)
-2. [Настроить DHCPv6-серверов]
+2. [Настроить DHCPv6-серверов]()
 
 ### Исходные данные
 #### Схема сети для настройки обоих серверов
@@ -59,11 +59,11 @@ Success rate is 100 percent (5/5), round-trip min/avg/max = 0/0/0 ms
 (config)# service dhcp
 ```
 Создание пула IP адресов для DHCP-сервера с задаными характеристиками:
-- Наименование пула clients
-- Диапазон адресов 192.168.1.1 – 192.168.1.63
+- наименование пула clients
+- диапазон адресов 192.168.1.1 – 192.168.1.63
 - доменное имя ccna-lab.com
-- Шлюз по умолчанию 192.168.1.1
-- Время аренды 2 дня 12 часов 30 минут
+- шлюз по умолчанию 192.168.1.1
+- время аренды 2 дня 12 часов 30 минут
 ```
 (config)# ip dhcp pool clients                             
 (dhcp-config)# network 192.168.1.1 255.255.255.192
@@ -163,25 +163,136 @@ Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
 Approximate round trip times in milli-seconds:
 Minimum = 0ms, Maximum = 1ms, Average = 0ms
 ```
+### Настройка DHCPv6-сервера
+#### Исходные данные
+##### Таблица IP адресации
+Устройство | Интерфейс | IPv6 адрес
+---------- | --------- | ----------
+R1 | G0/0/0 | 2001:db8:acad:2::1/64
+R1 | G0/0/0 | fe80::1
+R1 | G0/0/1 | 2001:db8:acad:1::1/64
+R1 | G0/0/1 | fe80::1
+R2 | G0/0/0 | 2001:db8:acad:2::2/64
+R2 | G0/0/0 | fe80::2
+R2 | G0/0/1 | 2001:db8:acad:3::1/64
+R2 | G0/0/1 | fe80::1
+PC-A | NIC | DHCP
+PC-B | NIC | DHCP
+#### Настройка статической маршрутизации
+Включение IPv6 маршрутизации
+```
+(config)# ipv6 unicast-routing
+```
+Статическая настройка IPv6-адреса на интерфейсе
+```
+(config)# interface GigabitEthernet 0/0/0
+(config-if)# ipv6 address 2001:db8:acad:2::1/64
+```
+Настройка статического маршрута IPv6
+```
+(config)# ipv6 route 2001:db8:acad:3::/64 2001:db8:acad:2::2
+```
+Проверка работы маршрутизации
+```
+R1#ping 2001:db8:acad:3::1
 
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 2001:db8:acad:3::1, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 0/0/0 ms
+```
+#### Автоматическое получение IPv6 адреса
+Пример автоматического получения IPv6 персональным компьютером PC-B. Адрес интерфейса сгенерирован с помощью MAC-адреса (выделен жирно) 2001:DB8:ACAD:3:**204:9AFF:FE76:5837**
+```
+C:\>ipconfig
 
+FastEthernet0 Connection:(default port)
 
+Connection-specific DNS Suffix..: ccna-lab.com
+Link-local IPv6 Address.........: FE80::204:9AFF:FE76:5837
+IPv6 Address....................: 2001:DB8:ACAD:3:204:9AFF:FE76:5837
+IPv4 Address....................: 192.168.1.246
+Subnet Mask.....................: 255.255.255.240
+Default Gateway.................: FE80::2E0:F7FF:FEAC:D202
+                                  192.168.1.241
 
+Bluetooth Connection:
 
+Connection-specific DNS Suffix..: ccna-lab.com
+Link-local IPv6 Address.........: ::
+IPv6 Address....................: ::
+IPv4 Address....................: 0.0.0.0
+Subnet Mask.....................: 0.0.0.0
+Default Gateway.................: ::
+                                  0.0.0.0
+```
+#### DHCP-сервера без сохранения состояния
+Создание пула IPv6 адресов для DHCP-сервера без сохранения состояния с задаными характеристиками:
+- наименование пула R1-STATELESS 
+- DNS-сервер 2001:db8:acad::254
+- доменное имя STATELESS.com
+```
+(config)# ipv6 dhcp pool R1-STATELESS                             
+(config-dhcpv6)# dns-server 2001:db8:acad::254
+(config-dhcpv6)# domain-name STATELESS.com
+```
+Настройка интерфейса для передачи флага предоставления IPv6-префикса по протоколу SLAAC и предоставление информации о пуле DHCPv6
+```
+(config-if)# ipv6 nd other-config-flag
+(config-if)# ipv6 dhcp server R1-STATELESS
+```
+Проверка работы DHCP-сервера на персональном компьютере PC-A
+```
+C:\>ipconfig /all
 
+FastEthernet0 Connection:(default port)
 
+Connection-specific DNS Suffix..: ccna-lab.com
+: STATELESS.com 
+Physical Address................: 0050.0F8B.3711
+Link-local IPv6 Address.........: FE80::250:FFF:FE8B:3711
+IPv6 Address....................: 2001:DB8:ACAD:1:250:FFF:FE8B:3711
+IPv4 Address....................: 192.168.1.6
+Subnet Mask.....................: 255.255.255.192
+Default Gateway.................: FE80::260:3EFF:FE0D:5D02
+                                  192.168.1.1
+DHCP Servers....................: 192.168.1.1
+DHCPv6 IAID.....................: 1266755608
+DHCPv6 Client DUID..............: 00-01-00-01-47-0A-C0-3E-00-50-0F-8B-37-11
+DNS Servers.....................: 2001:DB8:ACAD::254
+                                  0.0.0.0
 
+Bluetooth Connection:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+Connection-specific DNS Suffix..: ccna-lab.com
+                                : STATELESS.com 
+Physical Address................: 0060.5C18.8956
+Link-local IPv6 Address.........: ::
+IPv6 Address....................: ::
+IPv4 Address....................: 0.0.0.0
+Subnet Mask.....................: 0.0.0.0
+Default Gateway.................: ::
+                                  0.0.0.0
+DHCP Servers....................: 0.0.0.0
+DHCPv6 IAID.....................: 1266755608
+DHCPv6 Client DUID..............: 00-01-00-01-47-0A-C0-3E-00-50-0F-8B-37-11
+DNS Servers.....................: ::
+                                  0.0.0.0
+```
+#### DHCP-сервера c отслеживанием состояния
+Создание пула IPv6 адресов для DHCP-сервера без сохранения состояния с задаными характеристиками:
+- наименование пула R2-STATEFUL
+- префикс 2001:db8:acad:3:aaaa::/80
+- DNS-сервер 2001:db8:acad::254
+- доменное имя STATEFUL.com
+```
+(config)# ipv6 dhcp pool R2-STATEFUL
+(config-dhcpv6)# address prefix 2001:db8:acad:3:aaaa::/80
+(config-dhcpv6)# dns-server 2001:db8:acad::254
+(config-dhcpv6)# domain-name STATEFUL.com
+```
+Настройка интерфейса для получения всей информации от DHCPv6-сервера и ретрансляцию DHCP запросов на DHCP-сервер
+```
+(config-if)# ipv6 nd managed-config-flag
+(config-if)# ipv6 dhcp relay destination 2001:db8:acad:2::1
+```
