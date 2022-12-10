@@ -92,10 +92,9 @@ VLAN | Имя | Интерфейсы
 ```
 Настройка интерфейса управления 
 ```
-(config)# interface FastEthernet0/0
+(config)# interface vlan 3
 (config-if)# no shutdown
 (config-if)# ip address 192.168.3.11 255.255.255.0
-(config-if)# switchport access vlan 2
 (config-if)# exit
 (config)# ip default-gateway 192.168.3.1
 ```
